@@ -8,37 +8,20 @@
 <body>
     <h1>Calculadora</h1>
 
-    <div>
-        <h2>Somar</h2>
+<div>
         <input type="number" id="soma-num1" placeholder="número 1">
         <input type="number" id="soma-num2" placeholder="número 2">
-        <button onclick="somar()">Somar</button>
-        <p id="resultado-soma"></p>
-    </div>
+
     
     <div>
-        <h2>Subtrair</h2>
-        <input type="number" id="sub-num1" placeholder="número 1">
-        <input type="number" id="sub-num2" placeholder="número 2">
-        <button onclick="subtrair()">Subtrair</button>
-        <p id="resultado-sub"></p>
-    </div>
-    
-    <div>
-        <h2>Multiplicar</h2>
-        <input type="number" id="mult-num1" placeholder="número 1">
-        <input type="number" id="mult-num2" placeholder="número 2">
-        <button onclick="multiplicar()">Multiplicar</button>
-        <p id="resultado-mult"></p>
+        <button onclick="somar()">Somar</button><br>
+        <button onclick="subtrair()">Subtrair</button><br>
+        <button onclick="multiplicar()">Multiplicar</button><br>
+        <button onclick="dividir()">Dividir</button><br>
     </div>
 
-    <div>
-        <h2>Dividir</h2>
-        <input type="number" id="div-num1" placeholder="número 1">
-        <input type="number" id="div-num2" placeholder="número 2">
-        <button onclick="dividir()">Dividir</button>
-        <p id="resultado-div"></p>
-    </div>
+    <p id="resultado" style="margin-top: 15px;">Resultado:</p>
+</div>
 
     <script src="scripts/calculadora.js"></script>
 </body>
